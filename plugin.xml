@@ -7,7 +7,7 @@
   <license>MIT</license>
   <preference name="TEXT" />
   <platform name="ios">
-    <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
+    <config-file target="*-Info.plist" parent="NSBluetoothAlwaysUsageDescription">
       <string>$TEXT</string>
     </config-file>
   </platform>
