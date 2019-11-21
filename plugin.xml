@@ -5,9 +5,9 @@
   <author>Rand Dusing</author>
   <keywords>bluetooth,background,peripheral</keywords>
   <license>MIT</license>
-  <preference name="TEXT" />
-  <preference name="LOCATIONTEXT" />
   <platform name="ios">
+    <preference name="TEXT" />
+    <preference name="LOCATIONTEXT" />
     <config-file target="*-Info.plist" parent="NSBluetoothAlwaysUsageDescription">
       <string>$TEXT</string>
     </config-file>
