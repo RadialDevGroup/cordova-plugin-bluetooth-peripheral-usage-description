@@ -6,12 +6,19 @@
   <keywords>bluetooth,background,peripheral</keywords>
   <license>MIT</license>
   <preference name="TEXT" />
+  <preference name="LOCATIONTEXT" />
   <platform name="ios">
     <config-file target="*-Info.plist" parent="NSBluetoothAlwaysUsageDescription">
       <string>$TEXT</string>
     </config-file>
     <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
       <string>$TEXT</string>
+    </config-file>
+    <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
+      <string>$LOCATIONTEXT</string>
+    </config-file>
+    <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+      <string>$LOCATIONTEXT</string>
     </config-file>
   </platform>
 </plugin>
